@@ -11,7 +11,6 @@
     font-family: 'Courier New', Courier, monospace;
     background: none;
     color: black;
-    
 }
 body{ background: lightsalmon; }
 li{ list-style: none; }
@@ -27,25 +26,5 @@ a{ text-decoration: none; }
     background: rgba(210, 105, 30, 0.75);
     font-size: 24px;
     border: black dotted 5px;
-    box-shadow: 10px 10px 5px rgb(100, 100, 100);
-}
-.ul-butts{
-    padding: 20px;
-    display: flex;
-    justify-content: center;
-}
-.ul-butts a{
-    display: inline-flex;
-    font-size: large;
-    margin: 0 20px;
-    padding: 10px;
-    background: var(--a-color);
-    text-transform: uppercase;
-    border-radius: 5%;
-    border: solid rgba(0, 0, 0, 0.3) 0.5px;
-}
-/*-------CLASSES FOR JS--------*/
-.ul-butts a.js-style{
-    background: var(--a-hover-color);
-    color: beige;
+    box-shadow: 10px 10px 10px rgb(100, 100, 100);
 }

@@ -1,0 +1,21 @@
+/*----------MAIN SETTINGS------------*/
+.window{
+    padding: 0;
+    width: 25%;
+}
+#login{
+    display: flex;
+    flex-direction: column;
+    margin: 30px 20px 60px 20px;
+}
+#login input{
+    padding: 5px;
+    margin: 5px;
+    font-size: 20px;
+    background: wheat;
+}
+.message{font-size: 18px;}
+.message a{color: wheat;}
+#login #submit{background: rgb(255, 160, 0);}
+/*----------FOR JS------------*/
+.error {background-color: red}
