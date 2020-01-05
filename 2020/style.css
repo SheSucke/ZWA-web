@@ -1,0 +1,52 @@
+/*----------HLAVNÍ ČÁST------------*/
+.sekce{
+    width: 1036px;
+}
+/*-------LOGA+ODKAZY--------*/
+.grid {
+    display: flex;
+    flex-flow: row wrap;
+    padding: 0 4px;
+    height: auto;
+}
+
+.column {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    width: calc(100% / 3);
+    justify-content: space-evenly;
+}
+.column img {
+    padding: 20px;
+    max-width: 100%;
+}
+.column-sp {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    width: calc(100% / 4);
+}
+.column-sp img {
+    padding: 20px;
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+.column-sp-d {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    width: calc(100% / 4);
+    
+}
+.column-sp-d img {
+    padding: 20px;
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    max-height: 150px;
+    max-width: 250px;
+}

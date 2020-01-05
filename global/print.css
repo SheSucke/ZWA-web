@@ -1,0 +1,9 @@
+body {
+    background-image: none;
+    font-family: monospace;
+    font-style: normal;
+    color: black !important;
+}
+.box {
+    border: none;
+}
