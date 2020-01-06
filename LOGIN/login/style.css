@@ -3,10 +3,22 @@
     padding: 0;
     width: 25%;
 }
+#back{
+    height: 10%;
+    width: 20%;
+    font-size: 18px;
+    margin: 10px;
+    padding: 10px;
+    background: var(--a-color);
+    text-transform: uppercase;
+    border: solid rgba(0, 0, 0, 0.3) 0.5px;
+    border-radius: 5%;
+    text-align: center;
+}
 #login{
     display: flex;
     flex-direction: column;
-    margin: 30px 20px 60px 20px;
+    margin: 10px 20px 60px 20px;
 }
 #login input{
     padding: 5px;
@@ -18,4 +30,8 @@
 .message a{color: wheat;}
 #login #submit{background: rgb(255, 160, 0);}
 /*----------FOR JS------------*/
+#back.js-style{
+    background: var(--a-hover-color);
+    color: beige;
+}
 .error {background-color: red}

@@ -4,14 +4,13 @@
     justify-content: center;
 }
 .ul-butts a{
-    display: inline-flex;
     font-size: large;
     margin: 0 20px;
     padding: 10px;
     background: var(--a-color);
     text-transform: uppercase;
-    border-radius: 5%;
     border: solid rgba(0, 0, 0, 0.3) 0.5px;
+    border-radius: 5%;
 }
 /*-------CLASSES FOR JS--------*/
 .ul-butts a.js-style{
