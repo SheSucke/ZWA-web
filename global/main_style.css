@@ -126,12 +126,11 @@ a{ text-decoration: none; }
 .inactive li{ display: none; }
 /*----------HLAVNÍ ČÁST------------*/
 .div-main{
-    margin: 160px 0;
-    margin-left: 180px;
+    margin: 160px 0 160px 180px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    align-self: flex-start;
+    /*align-self: flex-start;  asi nic nedela :D */
 }
 .div-main > img{
     margin-top: 20px;

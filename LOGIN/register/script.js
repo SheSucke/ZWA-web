@@ -19,10 +19,13 @@ function hover(){
 function validate(udalost){
     var name = document.querySelector("#name");
     var password = document.querySelector("#password");
+    var email = document.querySelector("#email");
+    var password_again = document.querySelector("#password_again");
 
     validateName(udalost, name);
+    validateEmail(udalost, email);
     validatePassword(udalost, password);
-
+    validatePasswordAgain(udalost, password_again);
 }
 function validateName (event, element){
     if (!element){
@@ -31,6 +34,21 @@ function validateName (event, element){
     if (element.value.length < 5){
         element.className = 'error';
         event.preventDefault();
+        document.querySelector(".warning").innerHTML += "<p>Krátké jméno</p>";
+        
+    }
+    else{
+        element.className = '';
+    }
+}
+function validateEmail (event, element){
+    if (!element){
+        var element = event.target;
+    }
+    if (element.value.indexOf('@') == -1){
+        element.className = 'error';
+        event.preventDefault();
+        document.querySelector(".warning").innerHTML += "<p>Špatně zadaný email</p>";
     }
     else{
         element.className = '';
@@ -43,6 +61,23 @@ function validatePassword (event, element){
     if (element.value.length < 5){
         element.className = 'error';
         event.preventDefault();
+        document.querySelector(".warning").innerHTML += "<p>Krátké heslo</p>";
+    }
+    else{
+        element.className = '';
+    }
+}
+function validatePasswordAgain (event, element){
+    if (!element){
+        var element = event.target;
+    }
+    if (element.value.length != password.value.length){
+        element.className = 'error';
+        event.preventDefault();
+        document.querySelector(".warning").innerHTML += "<p>Neshodují se hesla</p>";
+    }
+    else if (password.value.length == 0){
+        element.className = 'error';
     }
     else{
         element.className = '';

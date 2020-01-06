@@ -1,9 +1,8 @@
 /*----------GLOBAL VARIABLES------------*/
 :root{
     --main-bg-color: #f3deb3;
-    --main-nav-color: #646464;
-    --hover-color: #69696969;
-    --bg-transition-color: rgba(90, 90, 90, 0.8);
+    --a-color: rgba(209, 125, 65, 0.5);
+    --a-hover-color: #69696969;
 }
 /*----------MAIN SETTINGS------------*/
 *{
@@ -87,4 +86,24 @@ a{ text-decoration: none; }
     text-align: center;
     background: grey;
     border: double black 1px;
+}
+/*-----BUTTONS-----*/
+.ul-butts{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+.ul-butts a{
+    font-size: large;
+    margin: 0 20px;
+    padding: 10px;
+    background: var(--a-color);
+    text-transform: uppercase;
+    border: solid rgba(0, 0, 0, 0.3) 0.5px;
+    border-radius: 5%;
+}
+/*-------CLASSES FOR JS--------*/
+.ul-butts a.js-style{
+    background: var(--a-hover-color);
+    color: beige;
 }

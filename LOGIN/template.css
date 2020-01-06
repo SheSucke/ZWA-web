@@ -17,11 +17,12 @@ li{ list-style: none; }
 a{ text-decoration: none; }
 /*-------MAIN--------*/
 .window{
-    padding: 2% 0;
-    margin: 15% auto;
+    min-width: 350px;
+    margin: 10% auto;
     display: flex;
     text-align: center;
     flex-direction: column;
+    flex-wrap: wrap;
     width: 50%;
     background: rgba(210, 105, 30, 0.75);
     font-size: 24px;

@@ -13,16 +13,17 @@
 <body>
     <div class="window">
         <a id="back" href="#">zpět</a> <!--tlačítko zpět-->
-        <form id="login" method="POST">
-            <input id="name" type="text" name="Jméno" placeholder="username">
-            <input id="email" type="text" name="E-mail" placeholder="heslo">
+        <form id="login" method="post">
+            <label for="name">Jméno:<input id="name" type="text" name="Jméno" placeholder="username"></form>
+            <label for="password">Heslo:<input id="password" type="password" name="Heslo" placeholder="password"></label>
             <input id="submit" type="submit" value="LOGIN">
-            <p class="message">Nemáte účet? <a href="../register/register.html">Registrovat</a></p>
+            <p class="message">Nemáte účet? <a href="../register/register.html">Registrovat!</a></p>
         </form>
     </div>
     <script>
         hover()
         back()
+        init()
     </script>
 </body>
 </html>
