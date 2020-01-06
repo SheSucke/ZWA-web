@@ -17,6 +17,9 @@ function hover(){
     }
 }
 function validate(udalost){
+    window.warningDiv = document.querySelector(".warning"); //global variable
+    warningDiv.innerHTML = ""; //clears the red output
+
     var name = document.querySelector("#name");
     var password = document.querySelector("#password");
     var email = document.querySelector("#email");
@@ -34,7 +37,7 @@ function validateName (event, element){
     if (element.value.length < 5){
         element.className = 'error';
         event.preventDefault();
-        document.querySelector(".warning").innerHTML += "<p>Krátké jméno</p>";
+        warningDiv.innerHTML += "<p>Krátké jméno</p>";
         
     }
     else{
@@ -48,7 +51,7 @@ function validateEmail (event, element){
     if (element.value.indexOf('@') == -1){
         element.className = 'error';
         event.preventDefault();
-        document.querySelector(".warning").innerHTML += "<p>Špatně zadaný email</p>";
+        warningDiv.innerHTML += "<p>Špatně zadaný email</p>";
     }
     else{
         element.className = '';
@@ -61,7 +64,7 @@ function validatePassword (event, element){
     if (element.value.length < 5){
         element.className = 'error';
         event.preventDefault();
-        document.querySelector(".warning").innerHTML += "<p>Krátké heslo</p>";
+        warningDiv.innerHTML += "<p>Krátké heslo</p>";
     }
     else{
         element.className = '';
@@ -74,7 +77,7 @@ function validatePasswordAgain (event, element){
     if (element.value.length != password.value.length){
         element.className = 'error';
         event.preventDefault();
-        document.querySelector(".warning").innerHTML += "<p>Neshodují se hesla</p>";
+        warningDiv.innerHTML += "<p>Neshodují se hesla</p>";
     }
     else if (password.value.length == 0){
         element.className = 'error';
