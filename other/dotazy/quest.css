@@ -1,0 +1,48 @@
+/*-------MAIN--------*/
+.div-main{background: lightblue;}
+.info{ 
+    padding: 10px;
+    width: 100%;
+    background: chocolate;
+}
+/*-----FORM-----*/
+.div-form{
+    align-items: center;
+    padding: 10px;
+}
+.div-form form{
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+}
+textarea{ /* nastavení pro textová pole */
+    font-size: 16px;
+    padding: 2px;
+    resize: none;
+    background: whitesmoke;
+}
+#submit{
+    padding: 3px;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+/*-----BUTTONS-----*/
+.ul-butts{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+.ul-butts a{
+    font-size: large;
+    margin: 0 20px;
+    padding: 10px;
+    background: var(--a-color);
+    text-transform: uppercase;
+    border: solid rgba(0, 0, 0, 0.3) 0.5px;
+    border-radius: 5%;
+}
+/*-------CLASSES FOR JS--------*/
+.ul-butts a.js-style{
+    background: var(--a-hover-color);
+    color: beige;
+}
