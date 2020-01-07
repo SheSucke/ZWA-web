@@ -17,10 +17,10 @@
             <p>Jméno i heslo minimálně 5 znaků.</p>
         </div>
         <form id="login" method="post">
-            <label for="name">Jméno:<input id="name" type="text" name="Jméno" placeholder="username"></label>
-            <label for="email">E-mail:<input id="email" type="email" name="email" placeholder="email"></label>
-            <label for="password">Heslo:<input id="password" type="password" name="Heslo" placeholder="password"></label>
-            <label for="password_again">Heslo znova:<input id="password_again" type="password" name="Heslo_znova" placeholder="password again"></label>
+            <label for="name">Jméno:<input id="name" type="text" name="Jméno" placeholder="username" required></label>
+            <label for="email">E-mail:<input id="email" type="email" name="email" placeholder="email" required></label>
+            <label for="password">Heslo:<input id="password" type="password" name="Heslo" placeholder="password" required></label>
+            <label for="password_again">Heslo znova:<input id="password_again" type="password" name="Heslo_znova" placeholder="password again" required></label>
             <input id="submit" type="submit" value="LOGIN">
             <p class="message">Už máte účet? <a href="../login/login.html">Přihlásit!</a></p>
         </form>

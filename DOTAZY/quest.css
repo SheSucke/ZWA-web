@@ -1,6 +1,7 @@
 /*----------GLOBAL VARIABLES------------*/
 :root{
     --main-bg-color: #f3deb3;
+    --main-nav-color: #646464;
     --a-color: rgba(209, 125, 65, 0.5);
     --a-hover-color: #69696969;
 }
@@ -74,18 +75,42 @@ a{ text-decoration: none; }
 /*-------MAIN--------*/
 .div-main{
     margin: 74px 20%;
-    background: chocolate;
     width: 60%;
     display: flex;
     flex-direction: column;
     align-items: center;
     font-size: large;
+    border: solid rgba(0, 0, 0, 0.5) 1px;
+    background: lightblue;
 }
-.div-main h1{
+#h{
+    padding: 5px;
     width: 100%;
     text-align: center;
+    letter-spacing: 1px;
     background: grey;
-    border: double black 1px;
+    border-bottom: solid black 1px;
+    border-top:  solid black 1px;
+}
+.info{
+    padding: 10px;
+    width: 100%;
+    background: chocolate;
+}
+.div-form{
+    align-items: center;
+    padding: 10px;
+}
+.div-form form{
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+}
+textarea{
+    font-size: 16px;
+    padding: 2px;
+    resize: none;
+    background: whitesmoke;
 }
 /*-----BUTTONS-----*/
 .ul-butts{

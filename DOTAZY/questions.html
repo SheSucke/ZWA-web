@@ -26,14 +26,24 @@
         <div id="head3">slavnosti</div>
     </div>
     <div class="div-main">
-        <h1>DOTAZY</h1>
-        <div>
+        <h2 id="h">INFO</h2>
+        <div class="info">
             <p>Zde najdete odpovědi na dotazy ohledně pivních slavností.</p>
             Po přihlášení budete moct přidávat dotazy.
             <ul class="ul-butts">
                 <li><a href="/LOGIN/login/login.html">Přihlásit</a></li>
                 <li><a href="/LOGIN/register/register.html">Registrovat</a></li>
             </ul>
+        </div>
+        <h2 id="h">PŘÍSPĚVKY</h2>
+        <div class="cont"></div><!--div where topics will be displayed-->
+        <h2 id="h">ZDE MŮŽETE PSÁT DOTAZY</h2>
+        <div class="div-form">
+            <form action="" method="post">
+                <label for="t-name">Předmět:<textarea required maxlength="50" name="topic-name" id="t-name" cols="60" rows="1" placeholder="Zde napište Předmět dotazu..."></textarea></label>
+                <label for="t-area">Text:<textarea required maxlength="500" name="area" id="t-area" cols="60" rows="10" placeholder="Zde napište dotaz..."></textarea></label>
+                <input id="submit" type="submit" value="Odeslat">
+            </form>
         </div>
     </div>
     <script>
