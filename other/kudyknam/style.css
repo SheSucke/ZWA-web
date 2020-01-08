@@ -1,6 +1,12 @@
 /*-------MAIN--------*/
-.div-main{background: lightgreen;}
+.div-main{background: rgb(231, 204, 128);}
+.sub{
+    display: flex;
+    margin: 10px;
+}
+.text{
+    font-size: 18px;
+}
 /*-----MAP-----*/
 .map{
-    margin: 50px;
 }
