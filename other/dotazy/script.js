@@ -1,4 +1,4 @@
-function hover(){
+function hoverButts(){
     const js = document.querySelectorAll(".ul-butts a");
     for(var i = 0 ; i < js.length; i++){
       js[i].addEventListener('mouseover', changeDefOver);

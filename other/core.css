@@ -74,7 +74,7 @@ a{ text-decoration: none; }
 }
 /*-------MAIN--------*/
 .div-main{
-    margin: 70px 20%;
+    margin: 80px 20%;
     width: 60%;
     display: flex;
     flex-direction: column;
@@ -93,4 +93,10 @@ a{ text-decoration: none; }
     background: grey;
     border-bottom: solid black 1px;
     border-top:  solid black 1px;
+}
+/*----------CLASSES FOR JS------------*/
+.js-style{
+    background: var(--hover-color);
+    color: beige;
+    border: rgba(0, 0, 0, 0.05) solid 0.5px;
 }
