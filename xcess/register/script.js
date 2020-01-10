@@ -1,21 +1,3 @@
-function hover(){
-    const js = document.querySelectorAll("#back");
-    for(var i = 0 ; i < js.length; i++){
-      js[i].addEventListener('mouseover', changeDefOver);
-      js[i].addEventListener('mouseout', changeDefOut);
-    }
-    function changeDefOver(e) {
-      e.target.classList.toggle("js-style");
-      //e.target.style.backgroundColor = "var(--a-hover-color)";
-      //e.target.style.color = "beige";
-    }
-      
-    function changeDefOut(e) {
-      e.target.classList.toggle("js-style");
-      //e.target.style.backgroundColor = "var(--a-color)";
-      //e.target.style.color = "initial";
-    }
-}
 function validate(udalost){
     window.warningDiv = document.querySelector(".warning"); //global variable
     warningDiv.innerHTML = ""; //clears the red output
@@ -38,7 +20,6 @@ function validateName (event, element){
         element.className = 'error';
         event.preventDefault();
         warningDiv.innerHTML += "<p>Krátké jméno</p>";
-        
     }
     else{
         element.className = '';

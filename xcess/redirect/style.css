@@ -12,11 +12,6 @@
     background: var(--a-bg-color);
     text-transform: uppercase;
     border: solid rgba(0, 0, 0, 0.3) 0.5px;
-    border-radius: 5%;
+    border-radius: 8px;
 }
 .ul-butts #main{font-weight: bold;}
-/*-------CLASSES FOR JS--------*/
-.ul-butts a.js-style{
-    background: var(--a-hover-bg-color);
-    color: var(--a-hover-color);
-}
