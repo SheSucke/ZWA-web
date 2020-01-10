@@ -9,7 +9,7 @@
     font-size: large;
     margin: 0 20px;
     padding: 10px;
-    background: var(--a-color);
+    background: var(--a-bg-color);
     text-transform: uppercase;
     border: solid rgba(0, 0, 0, 0.3) 0.5px;
     border-radius: 5%;
@@ -17,6 +17,6 @@
 .ul-butts #main{font-weight: bold;}
 /*-------CLASSES FOR JS--------*/
 .ul-butts a.js-style{
-    background: var(--a-hover-color);
-    color: beige;
+    background: var(--a-hover-bg-color);
+    color: var(--a-hover-color);
 }

@@ -17,7 +17,7 @@
     justify-content: space-evenly;
 }
 .column img {
-    padding: 20px;
+    padding: 10px;
     max-height: 300px;
     max-width: 100%;
 }
@@ -29,7 +29,7 @@
     width: calc(100% / 4);
 }
 .column-sp img {
-    padding: 20px;
+    padding: 10px;
     height: 100%;
     width: 100%;
     object-fit: contain;
@@ -42,7 +42,7 @@
     width: calc(100% / 3);   
 }
 .column-sp-d img {
-    padding: 20px;
+    padding: 10px;
     height: 100%;
     width: 100%;
     object-fit: contain;

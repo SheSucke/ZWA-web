@@ -9,7 +9,7 @@
     font-size: 18px;
     margin: 10px;
     padding: 10px;
-    background: var(--a-color);
+    background: var(--a-bg-color);
     text-transform: uppercase;
     border: solid rgba(0, 0, 0, 0.3) 0.5px;
     border-radius: 5%;
@@ -25,26 +25,26 @@
     padding: 5px;
     margin: 5px;
     font-size: 20px;
-    background: wheat;
+    background: var(--text-area-color);
 }
 #submit{
     width: 25%;
     align-self: center;
 }
 .message{font-size: 18px;}
-.message a{color: wheat;}
-#login #submit{background: rgb(255, 160, 0);}
+.message a{color: var(--text-area-color);}
+#login #submit{background: var(--butt-bg-color);}
 .warning p{
     margin: 5px;
     text-align: start;
     font-size: 22px;
     font-weight: bold;
-    color: red;
+    color: var(--error-color);
     width: 100%;
 }
 /*----------FOR JS------------*/
 #back.js-style{
-    background: var(--a-hover-color);
-    color: beige;
+    background: var(--a-hover-bg-color);
+    color: var(--a-hover-color);
 }
-#login .error {background-color: rgb(255, 0, 0)}
+#login .error {background: var(--error-color);}

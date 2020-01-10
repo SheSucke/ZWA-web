@@ -4,12 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Roztocké pivní slavnosti</title>
+    <link rel="stylesheet" href="../../globalColors.css" media="all">
     <link rel="stylesheet" href="../main_style.css" media="all">
     <link rel="stylesheet" href="style.css" media="all">
     <link rel="stylesheet" href="../print.css" media="print">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <script src="../main_script.js"></script>
+    <title>Roztocké pivní slavnosti</title>
 </head>
 <body>
     <button class="btn-to-top">
@@ -59,31 +60,47 @@
     <div class="div-main"> <!--HLAVNÍ ČÁST-->
         <img src="obr/2018_plakat.png" alt="2018_plakat"> <!--POSTER-->
         <div id="kapely" class="sekce">
-            <h1 class="h1">Kapely</h1>
-            <div>
-                <ul>
-                    <li>14:00 Deterze</li>
-                    <li><a href="https://bandzone.cz/deterze">bandzone</a></li>
-                    <li><a href="https://www.facebook.com/Deterze/">facebook</a></li>
+            <h1 class="h">Kapely</h1>
+            <div class="content">
+                <div>
+                    14:00 Deterze
+                    <img src="https://bzmedia.cz/band/93/18/9e5f/d6/4a/2fa9/-KH-4GOGXowuwDSBmxRflT6Hrww2NNOd.jpg" alt="deterze">
+                    <ul>
+                        <li>Bandzone: <a class="href-bands" href="bandzone.cz/deterze">bandzone.cz/deterze</a></li>
+                        <li>Facebook: <a class="href-bands" href="www.facebook.com/Deterze/">www.facebook.com/Deterze</a></li>
+                        <li>Youtube: <a class="href-bands" href="https://www.youtube.com/channel/UCjJax6ET3wF0GAwmwmqD8Ow/featured">www.youtube.com/channel/...</a></li>
+                    </ul>
+                </div>
+                <div>
+                    15:30 And the End
+                    <ul>
+                        <li>Bandzone: <a class="href-bands" href="https://bandzone.cz/andtheend">bandzone.cz/andtheend</a></li>
+                        <li>Facebook: <a class="href-bands" href="https://www.facebook.com/andtheendband/">www.facebook.com/andtheendband</a></li>
+                    </div>
                 </ul>
-                <ul>
-                    <li>15:30 And the End</li>
-                    <li><a href="https://bandzone.cz/andtheend">bandzone</a></li>
-                    <li><a href="https://www.facebook.com/andtheendband/">facebook</a></li>
-                </ul>
-                <ul>
-                    <li>18:00 Bluesberry</li>
-                    <li><a href="https://bandzone.cz/_72585">bandzone</a></li>
-                    <li><a href="https://www.facebook.com/bluesberry.cz/">facebook</a></li>
-                </ul>
-                <ul>
-                    <li>20:00 Jimiband</li>
-                    <li><a href="https://www.facebook.com/Jimiband-247632425578301/">facebook</a></li>
-                </ul>
+                <div>
+                    18:00 Bluesberry
+                    <img src="https://bzmedia.cz/band/a1/53/3f24/a2/8a/ea08/RdaqgKM5Fcgq8WgAsigEkAPqBO5O7iyq.jpg" alt="Bluesberry">
+                    <ul>
+                        <li>Website: <a class="href-bands" href="http://www.bluesberry.cz/">www.bluesberry.cz</a></li>
+                        <li>Bandzone: <a class="href-bands" href="https://bandzone.cz/_72585">bandzone.cz/bluesberry</a></li>
+                        <li>Facebook: <a class="href-bands" href="https://www.facebook.com/bluesberry.cz/">www.facebook.com/bluesberry.cz</a></li>
+                        <li>Youtube: <a class="href-bands" href="https://www.youtube.com/user/adminbb01">www.youtube.com/user/...</a></li>
+                    </ul>
+                    
+                </div>
+                <div>
+                    20:00 Jimiband
+                    <img src="https://bzmedia.cz/gig/c3/6a/1502/49/bf/d2ce/gKY0DZuzfS1LKVD6C1iAsSEuFRMCGnjw.jpg" alt="Jimiband">
+                    <ul>
+                        <li>Website: <a class="href-bands" href="https://www.jimiband.cz/">www.jimiband.cz</a></li>
+                        <li>Facebook: <a class="href-bands" href="https://www.facebook.com/Jimiband-247632425578301//">www.facebook.com/Jimiband</a></li>
+                    </ul>
+                </div>
             </div>
         </div>
         <div id="pivovary" class="sekce">
-            <h1 class="h1">Pivovary</h1>
+            <h1 class="h">Pivovary</h1>
             <div class="grid"> <!--ROZLOŽENÍ ODKAZŮ-->
                 <div class="column">
                     <a href="http://ubizona.eu/"><img src="http://xyz.tode.cz/wp-content/uploads/2018/09/bizon_logo-01.png" alt="bizon"></a>
@@ -102,7 +119,7 @@
             </div>
         </div>
         <div id="sponzori" class="sekce">
-            <h1 class="h1">Sponzoři</h1>
+            <h1 class="h">Sponzoři</h1>
             <div class="grid"> <!--ROZLOŽENÍ ODKAZŮ-->
                 <div class="column-sp">
                     <a href="https://euroclean.cz/"><img src="https://euroclean.cz/wp-content/uploads/2019/12/ec_logo.svg" alt="euroclean"></a>

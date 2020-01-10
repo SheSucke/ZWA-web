@@ -1,9 +1,9 @@
 /*-------MAIN--------*/
-.div-main{background: lightblue;}
+.div-main{background: var(--div-main-bg-color);}
 .info{ 
     padding: 10px;
     width: 100%;
-    background: chocolate;
+    /*background: var(--a-div-bg-color);*/
 }
 /*-----FORM-----*/
 .div-form{
@@ -19,12 +19,13 @@ textarea{ /* nastavení pro textová pole */
     font-size: 16px;
     padding: 2px;
     resize: none;
-    background: whitesmoke;
+    background: var(--text-area-color);
 }
 #submit{
     padding: 3px;
     font-size: 18px;
     text-transform: uppercase;
+    background: var(--butt-bg-color);
 }
 /*-----BUTTONS-----*/
 .ul-butts{
@@ -36,13 +37,13 @@ textarea{ /* nastavení pro textová pole */
     font-size: large;
     margin: 0 20px;
     padding: 10px;
-    background: var(--a-color);
+    background: var(--a-bg-color);
     text-transform: uppercase;
     border: solid rgba(0, 0, 0, 0.3) 0.5px;
     border-radius: 5%;
 }
 /*-------CLASSES FOR JS--------*/
 .ul-butts a.js-style{
-    background: var(--a-hover-color);
-    color: beige;
+    background: var(--a-hover-bg-color);
+    color: var(--a-hover-color);
 }

@@ -4,12 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Roztocké pivní slavnosti</title>
+    <link rel="stylesheet" href="../../globalColors.css" media="all">
     <link rel="stylesheet" href="../main_style.css" media="all">
     <link rel="stylesheet" href="style.css" media="all">
     <link rel="stylesheet" href="../print.css" media="print">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <script src="../main_script.js"></script>
+    <title>Roztocké pivní slavnosti</title>
 </head>
 <body>
     <button class="btn-to-top">
@@ -52,38 +53,60 @@
 
     
     <div class="div-main"> <!--HLAVNÍ ČÁST-->
-        <img src="obr/2019_plakat.png" alt="2019_plakat"> <!--POSTER-->
+        <div id="poster" class="sekce">
+            <h1 class="h">Poster</h1>
+            <img src="obr/2019_plakat.png" alt="2019_plakat"> <!--POSTER-->
+        </div>
         <div id="kapely" class="sekce">
-            <h1 class="h1">Kapely</h1>
-            <div>
-                <ul>
-                    <li>14:00 La - Vrz</li>
-                    <li><a href="">facebook zatím neni</a></li>
+            <h1 class="h">Kapely</h1>
+            <div class="content">
+                <div>
+                    14:00 La - Vrz
+                    <!--
+                    <ul>
+                        <li>Facebook zatím neni<a href=""></a></li>
+                    </ul>
+                    -->
+                </div>
+                <div>
+                    15:00 Deterze
+                    <img src="https://bzmedia.cz/band/93/18/9e5f/d6/4a/2fa9/-KH-4GOGXowuwDSBmxRflT6Hrww2NNOd.jpg" alt="deterze">
+                    <ul>
+                        <li>Bandzone: <a class="href-bands" href="bandzone.cz/deterze">bandzone.cz/deterze</a></li>
+                        <li>Facebook: <a class="href-bands" href="www.facebook.com/Deterze/">www.facebook.com/Deterze</a></li>
+                        <li>Youtube: <a class="href-bands" href="https://www.youtube.com/channel/UCjJax6ET3wF0GAwmwmqD8Ow/featured">www.youtube.com/channel/...</a></li>
+                    </ul>
+                </div>
+                <div>
+                    16:30 Jon Wate
+                    <img src="https://yt3.ggpht.com/a/AGF-l78UlNnhNmrgezWV2hC9eFNf_O6GU4-TiqMWAQ=s288-c-k-c0xffffffff-no-rj-mo" alt="JonWate">
+                    <ul>
+                        <li>Bandzone: <a class="href-bands" href="bandzone.cz/wate">bandzone.cz/wate</a></li>
+                        <li>Facebook: <a class="href-bands" href="www.facebook.com/Jon.Wate.Official/">www.facebook.com/Jon.Wate.Official</a></li>
+                        <li>Youtube: <a class="href-bands" href="https://www.youtube.com/channel/UCXgCYBAED0hb6tjp25b31xQ">www.youtube.com/channel/...</a></li>
+                    </div>
                 </ul>
-                <ul>
-                    <li>15:00 Deterze</li>
-                    <li><a href="https://bandzone.cz/deterze">bandzone</a></li>
-                    <li><a href="https://www.facebook.com/Deterze/">facebook</a></li>
-                </ul>
-                <ul>
-                    <li>16:30 Jon Wate</li>
-                    <li><a href="https://bandzone.cz/wate">bandzone</a></li>
-                    <li><a href="https://www.facebook.com/Jon.Wate.Official/">facebook</a></li>
-                </ul>
-                <ul>
-                    <li>18:30 Stará Škola</li>
-                    <li><a href="https://bandzone.cz/staraskola">bandzone</a></li>
-                    <li><a href="https://www.facebook.com/staraskolarock/">facebook</a></li>
-                </ul>
-                <ul>
-                    <li>20:30 Bluesberry</li>
-                    <li><a href="https://bandzone.cz/_72585">bandzone</a></li>
-                    <li><a href="https://www.facebook.com/bluesberry.cz/">facebook</a></li>
-                </ul>
+                <div>
+                    18:30 Stará Škola
+                    <ul>
+                        <li>Bandzone: <a class="href-bands" href="bandzone.cz/staraskola">bandzone.cz/staraskola</a></li>
+                        <li>Facebook: <a class="href-bands" href="www.facebook.com/staraskolarock/">www.facebook.com/staraskolarock</a></li>
+                    </ul>
+                </div>
+                <div>
+                    20:30 Bluesberry
+                    <img src="https://bzmedia.cz/band/a1/53/3f24/a2/8a/ea08/RdaqgKM5Fcgq8WgAsigEkAPqBO5O7iyq.jpg" alt="Bluesberry">
+                    <ul>
+                        <li>Website: <a class="href-bands" href="http://www.bluesberry.cz/">www.bluesberry.cz</a></li>
+                        <li>Bandzone: <a class="href-bands" href="https://bandzone.cz/_72585">bandzone.cz/bluesberry</a></li>
+                        <li>Facebook: <a class="href-bands" href="https://www.facebook.com/bluesberry.cz/">www.facebook.com/bluesberry.cz</a></li>
+                        <li>Youtube: <a class="href-bands" href="https://www.youtube.com/user/adminbb01">www.youtube.com/user/...</a></li>
+                    </ul>
+                </div>
             </div>
         </div>
-        <div class="sekce">
-            <h1 id="pivovary" class="h1">Pivovary</h1>
+        <div id="pivovary" class="sekce">
+            <h1 class="h">Pivovary</h1>
             <div class="grid"> <!--ROZLOŽENÍ ODKAZŮ-->
                 <div class="column">
                     <a href="https://www.unetickypivovar.cz/"><img src="https://www.unetickypivovar.cz/wp-content/uploads/2015/07/uneticky-pivovar-logo-invert.png" alt="unetice"></a>
@@ -102,7 +125,7 @@
             </div>
         </div>
         <div id="sponzori" class="sekce">
-            <h1 class="h1">Sponzoři</h1>
+            <h1 class="h">Sponzoři</h1>
             <div class="grid"> <!--ROZLOŽENÍ ODKAZŮ-->
                 <div class="column-sp">
                     <a href="https://euroclean.cz/"><img src="https://euroclean.cz/wp-content/uploads/2019/12/ec_logo.svg" alt="euroclean"></a>

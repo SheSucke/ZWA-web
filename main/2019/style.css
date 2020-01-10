@@ -6,7 +6,6 @@
 .grid {
     display: flex;
     flex-flow: row wrap;
-    padding: 0 4px;
     height: auto;
 }
 .column {
@@ -17,7 +16,7 @@
     justify-content: space-evenly;
 }
 .column img {
-    padding: 20px;
+    padding: 10px;
     max-width: 100%;
 }
 .column-sp {
@@ -28,7 +27,7 @@
     width: calc(100% / 4);
 }
 .column-sp img {
-    padding: 20px;
+    padding: 10px;
     height: 100%;
     width: 100%;
     object-fit: contain;
@@ -41,7 +40,7 @@
     width: calc(100% / 4);
 }
 .column-sp-d img {
-    padding: 20px;
+    padding: 10px;
     height: 100%;
     width: 100%;
     object-fit: contain;

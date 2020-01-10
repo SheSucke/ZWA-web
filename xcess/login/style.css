@@ -10,7 +10,7 @@
     font-size: 18px;
     margin: 10px;
     padding: 10px;
-    background: var(--a-color);
+    background: var(--a-bg-color);
     text-transform: uppercase;
     border: solid rgba(0, 0, 0, 0.3) 0.5px;
     border-radius: 5%;
@@ -25,18 +25,18 @@
     padding: 5px;
     margin: 5px;
     font-size: 20px;
-    background: wheat;
+    background: var(--text-area-color);
 }
 #submit{
     width: 25%;
     align-self: center;
 }
-#login #submit{background: rgba(255, 162, 0, 0.75);}
+#login #submit{background: var(--butt-bg-color);}
 .message{font-size: 18px;}
-.message a{color: wheat;}
+.message a{color: var(--text-area-color);}
 /*----------FOR JS------------*/
 #back.js-style{
-    background: var(--a-hover-color);
-    color: beige;
+    background: var(--a-hover-bg-color);
+    color: var(--a-hover-color);
 }
-#login .error {background-color: red}
+#login .error {background-color: var(--error-color);}

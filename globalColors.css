@@ -1,0 +1,26 @@
+/*----------GLOBAL VARIABLES------------*/
+:root{
+    /*---NAV BAR---*/
+    --temp-nav:135, 175, 75; /*this sets nav color*/
+    --main-nav-color: rgb(var(--temp-nav));
+    --bg-transition-color: rgba(var(--temp-nav), 0.8);
+    --hover-color: rgba(105, 105, 105, 0.4);
+
+    /*---BODY---*/
+    --body-bg-color: rgb(240, 190, 80);
+
+    /*---BUTTONS---*/
+    --a-bg-color: rgba(225, 90, 70);
+    --a-div-bg-color: rgba(220, 70, 30);
+    --a-hover-color: rgb(238, 238, 217);
+    --a-hover-bg-color: rgb(155, 35, 55);
+
+    /*---input---*/
+    --text-area-color: rgb(245, 245, 230);
+    --butt-bg-color: rgb(70, 185, 170);
+
+    /*---other---*/
+    --div-main-bg-color: rgb(150, 170, 210);
+    --h-bg-color: rgb(110, 90, 150);
+    --error-color: red;
+}
