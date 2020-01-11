@@ -22,6 +22,6 @@
     /*---other---*/
     --div-main-bg-color: rgb(150, 170, 210);
     --h-bg-color: rgb(110, 90, 150);
-    --error-color: red;
+    --error-color: rgba(255, 0, 0, 0.7);
     --error-bg-color: lightgrey;
 }

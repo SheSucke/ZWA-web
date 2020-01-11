@@ -55,9 +55,11 @@ function validatePasswordAgain (event, element){
     if (!element){
         var element = event.target;
     }
-    if (element.value.length != password.value.length){
+    if (element.value != password.value){
         element.className = 'error';
         event.preventDefault();
+        password.value = "";
+        element.value = "";
         warningDiv.innerHTML += "<p>Neshodují se hesla</p>";
     }
     else if (password.value.length == 0){
