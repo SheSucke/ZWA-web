@@ -90,7 +90,7 @@ a{ text-decoration: none; }
     font-size: larger;
     background: var(--div-main-bg-color);
 }
-#h{ /* nadpisy */
+.h{ /* nadpisy */
     padding: 5px;
     width: 100%;
     text-align: center;
