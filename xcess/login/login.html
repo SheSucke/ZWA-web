@@ -15,8 +15,8 @@
     <div class="window">
         <a id="back" href="#">zpět</a> <!--tlačítko zpět-->
         <form id="login" method="post">
-            <label for="name">Jméno:<input id="name" type="text" name="Jméno" placeholder="username" required></label>
-            <label for="password">Heslo:<input id="password" type="password" name="Heslo" placeholder="password" required></label>
+            <label for="name">Jméno:<input id="name" type="text" name="Jméno" placeholder="username" pattern="[A-Za-z0-9]{5,}" title="5 znaků, A-Z, a-z, 0-9" required></label>
+            <label for="password">Heslo:<input id="password" type="password" name="Heslo" placeholder="password" pattern="[A-Za-z0-9]{5,}" title="5 znaků, A-Z, a-z, 0-9" required></label>
             <input id="submit" type="submit" value="LOGIN">
             <p class="message">Nemáte účet? <a href="../register/register.html">Registrovat!</a></p>
         </form>
