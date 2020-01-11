@@ -141,15 +141,27 @@ a{ text-decoration: none; }
 }
 .sekce{
     border-top: solid black 1px;
-    width: auto; /*importante*/
     height: auto;
     margin-top: 10px;
+    width: 1036px; /*width: auto; importante*/
 }
-.content, .grid{ /*zaobléní sekcí*/
+
+.div-base{display: flex;}
+.info{
+    padding: 100px 10px;
+    font-size: 24px;
+    font-weight: bolder;
+    text-align: center;
+    width: 33%;
+}
+.content, .grid, .div-base, #poster{ /*zaobléní sekcí*/
     background: var(--div-main-bg-color);
     border: rgba(0, 0, 0, 0.3) 0.5px solid;
-    border-radius: 0 0 150px 150px;
-    
+    border-radius: 0 0 100px 100px;
+}
+#poster{
+    text-align: center;
+    border-radius: 0;
 }
 .content, #pivovary .grid{padding-bottom: 50px;}
 .h{
@@ -171,7 +183,7 @@ a{ text-decoration: none; }
     margin-left: 10px;
 }
 .sekce ul li{font-weight: normal;}
-.href-bands{text-decoration: underline;}
+.href-bands{text-decoration: underline ;}
 #kapely img{
     padding-right: 10px;
     float: left;
@@ -195,7 +207,14 @@ a{ text-decoration: none; }
     width: auto;
     padding: 10px;
 }
-.box div{padding: 0 15%;}
+.box div{
+    padding-left: 15%;
+    width: 50%;
+}
+.box h3{
+    text-transform: uppercase;
+    padding: 2px 0;
+}
 .footer{
     text-align: center;
     bottom: 0;
@@ -231,7 +250,6 @@ a{ text-decoration: none; }
 .js-style{
     background: var(--hover-color);
     color: var(--a-hover-color);
-    border: rgba(0, 0, 0, 0.05) solid 0.5px;
 }
 .div-left li a.js-style, .href-bands.js-style{
     border: none;

@@ -1,5 +1,5 @@
 function hover(){
-  const js = document.querySelectorAll(".nav-top a, .nav-left a, .href-bands");
+  const js = document.querySelectorAll(".nav-top a, .div-left a, .href-bands");
   for(var i = 0 ; i < js.length; i++){
     js[i].addEventListener('mouseover', changeDefOver);
     js[i].addEventListener('mouseout', changeDefOut);

@@ -1,5 +1,5 @@
 function hover(){
-    const js = document.querySelectorAll(".nav-top a");
+    const js = document.querySelectorAll(".nav-links-top a");
     for(var i = 0 ; i < js.length; i++){
       js[i].addEventListener('mouseover', changeDefOver);
       js[i].addEventListener('mouseout', changeDefOut);
