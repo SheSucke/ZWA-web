@@ -56,7 +56,7 @@ a{ text-decoration: none; }
 .message{font-size: 18px;}
 .message a{color: var(--text-area-color);}
 #login #submit{background: var(--butt-bg-color);}
-.warning p{
+.warning{
     margin: 15px;
     padding: 5px;
     text-align: start;
