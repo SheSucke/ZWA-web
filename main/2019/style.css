@@ -1,4 +1,7 @@
 /*----------HLAVNÍ ČÁST------------*/
+#poster{
+    height: 1036px;
+}
 .sekce{
     width: 1036px; /*importante*/
 }

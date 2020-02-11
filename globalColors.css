@@ -1,13 +1,14 @@
 /*----------GLOBAL VARIABLES------------*/
 :root{
     /*---NAV BAR---*/
-    --temp-nav:135, 175, 75; /*this sets nav color*/
+    --temp-nav: 94,119,3; /*this sets nav color*/
     --main-nav-color: rgb(var(--temp-nav));
     --bg-transition-color: rgba(var(--temp-nav), 0.8);
     --hover-color: rgba(105, 105, 105, 0.4);
 
     /*---BODY---*/
-    --body-bg-color: rgb(240, 190, 80);
+    --body-bg-color: beige;
+    --bg-tree-color: #65350F;
 
     /*---BUTTONS---*/
     --a-bg-color: rgba(255, 220, 160);
@@ -17,11 +18,11 @@
 
     /*---input---*/
     --text-area-color: rgb(245, 245, 230);
-    --butt-bg-color: rgb(130, 205, 225);
+    --butt-bg-color: rgb(193,210,214);
 
     /*---other---*/
-    --div-main-bg-color: rgb(150, 170, 210);
-    --h-bg-color: rgb(110, 90, 150);
+    --div-main-bg-color: #E1C699;
+    --h-bg-color: #8D5E2F;
     --error-color: rgba(255, 0, 0, 0.7);
     --error-bg-color: lightgrey;
 }
