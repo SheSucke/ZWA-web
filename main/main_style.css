@@ -169,10 +169,12 @@ a{ text-decoration: none; }
 .content, #pivovary .grid{padding-bottom: 50px;}
 .h{
     text-align: center;
-    border: rgba(0, 0, 0, 0.3) 0.5px solid;
+    border: rgba(0, 0, 0, 0.1) 0.5px solid;
+    border-radius: 2px;
     margin: 0;
     padding: 10px 0;
-    background: var(--h-bg-color);
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
+    background: linear-gradient(0deg, rgba(176,118,61,1) 0%, rgba(141,94,47,1) 50%, rgba(176,118,61,1) 100%);
 }
 /*---KAPELY--*/
 #kapely div div{
