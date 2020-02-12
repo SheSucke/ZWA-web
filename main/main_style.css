@@ -261,3 +261,18 @@ a{ text-decoration: none; }
     border: none;
     background: initial;
 }
+/*----------@MEDIA------------*/
+@media(max-width: 800px){/*dodělat*/
+    .div-main{
+        display: none;
+    }
+}
+/*
+@media only print {
+    .div-main {
+      width: auto;
+      height: auto;
+      overflow: visible;
+    }
+ }
+ */

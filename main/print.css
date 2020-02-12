@@ -4,6 +4,10 @@ body {
     font-style: normal;
     color: black !important;
 }
-.box {
-    border: none;
+.nav-top, .nav-left, .nav-bottom, .header{
+    display: none;
+}
+#poster{
+    max-width: 100%;
+    height: auto;
 }
