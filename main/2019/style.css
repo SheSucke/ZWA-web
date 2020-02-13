@@ -1,10 +1,3 @@
-/*----------HLAVNÍ ČÁST------------*/
-#poster{
-    height: 1036px;
-}
-.sekce{
-    width: 1036px; /*importante*/
-}
 /*-------LOGA+ODKAZY--------*/
 .grid {
     display: flex;
