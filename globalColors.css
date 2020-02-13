@@ -1,10 +1,10 @@
 /*----------GLOBAL VARIABLES------------*/
 :root{
-    /*---NAV BAR---*/
+    /*---NAV-BAR---*/
     --temp-nav: 94,119,3; /*this sets nav color*/
     --main-nav-color: rgb(var(--temp-nav));
     --bg-transition-color: rgba(var(--temp-nav), 0.8);
-    --hover-color: rgba(105, 105, 105, 0.4);
+    /*--hover-color: rgba(105, 105, 105, 0.4);*/
 
     /*---BODY---*/
     --body-bg-color: beige;
@@ -12,16 +12,11 @@
 
     /*---BUTTONS---*/
     --a-bg-color: rgba(255, 220, 160);
-    --a-div-bg-color: rgba(255, 105, 30);
     --a-hover-color: beige;
-    --a-hover-bg-color: rgba(250, 165, 0);
 
-    /*---input---*/
-    --text-area-color: rgb(245, 245, 230);
     --butt-bg-color: rgb(193,210,214);
 
-    /*---other---*/
+    /*---MAIN-CONTENT---*/
     --div-main-bg-color: #E1C699;
     --h-bg-color: #8D5E2F;
-    --error-color: rgba(255, 0, 0, 0.7);
 }
