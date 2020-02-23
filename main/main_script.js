@@ -1,5 +1,6 @@
 function hover(){
-  const js = document.querySelectorAll(".nav-top a, .div-left a, .href-bands");
+  const js = document.querySelectorAll(".nav-top a, .invisible a, .href-bands");
+  
   for(var i = 0 ; i < js.length; i++){
     js[i].addEventListener('mouseover', changeDefOver);
     js[i].addEventListener('mouseout', changeDefOut);
@@ -24,6 +25,7 @@ function navTransition(){
   const logo = document.querySelector('.logo');
   const header = document.querySelector('.header');
   const button = document.querySelector('.btn-to-top');
+  const hamburger = document.querySelector('.hamburger');
 
   function scrollFunction() {
     if (document.body.scrollTop > 30 || document.documentElement.scrollTop > 30) {
@@ -34,6 +36,7 @@ function navTransition(){
       nav_left.classList.add("scrolled");
       header.classList.add("scrolled");
       button.classList.add("scrolled");
+      hamburger.classList.add("scrolled");
       //button.style.right = "20px";
     } else {
       //document.documentElement.style.setProperty('--hover-color', '#69696969');
@@ -43,6 +46,7 @@ function navTransition(){
       nav_left.classList.remove("scrolled");
       header.classList.remove("scrolled");
       button.classList.remove("scrolled");
+      hamburger.classList.remove("scrolled");
       //button.style.right = "-100px";
     }
   }
@@ -56,4 +60,12 @@ function buttonUp(){
   but.addEventListener("click", function(){
     window.scrollTo(0, 0);
   })
+}
+function hoverHamburger(){
+  const burger = document.querySelector('.hamburger');
+  const left = document.querySelector('.nav-left');
+
+  burger.addEventListener('click', (e) => {
+    left.classList.toggle('clickBurger');
+  });
 }
