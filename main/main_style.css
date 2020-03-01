@@ -4,6 +4,11 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
+    /*
+    font-family: dederon-serif-web, serif;
+    font-style: normal;
+    font-weight: bold;
+    */
     background: none;
     color: black;
     scroll-behavior: smooth;
@@ -162,7 +167,7 @@ a{ text-decoration: none; }
     text-align: center;
     width: 33%;
 }
-.content, .grid, .div-base, #poster{ /*zaobléní sekcí*/
+.content, .grid, .div-base, #poster, .pictures{ /*zaobléní sekcí*/
     background: var(--div-main-bg-color);
     border-radius: 0 0 75px 75px;
     box-shadow: 0px 5px 20px 0px rgba(0,0,0,0.5);
@@ -182,7 +187,24 @@ a{ text-decoration: none; }
     box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
     background: linear-gradient(0deg, var(--h-bg-edge-color) 0%, rgba(0, 0, 0, 0) 40%), linear-gradient(0deg, var(--h-bg-center-color) 60%, var(--h-bg-edge-color) 100%);
 }
-/*---KAPELY--*/
+/*-----GALERIE-----*/
+#galerie{
+
+}
+.pictures{
+    display: flex;
+    justify-content: space-evenly;
+
+    padding: 50px 5px;
+}
+#galerie img{
+    transition: 0.5s;
+    padding: 5px;
+}
+#galerie img:hover{
+    transform: scale(1.1);
+}
+/*-----KAPELY-----*/
 #kapely div div{
     font-size: 22px;
     padding:15px 50px;
@@ -268,11 +290,17 @@ a{ text-decoration: none; }
     box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.5);
     color: var(--a-hover-color);
 }
-.div-left li a.js-style, .href-bands.js-style{background: initial;}
+.div-left li a.js-style, .href-bands.js-style{
+    background: initial;
+    box-shadow: none;
+}
 
 .nav-left.clickBurger{width: 180px;}
-.nav-left.clickBurger .invisible{display: flex;
-background: var(--main-nav-color)}
+.nav-left.clickBurger .invisible{
+    display: flex;
+    background: var(--main-nav-color)
+}
+
 /*----------@MEDIA------------*/
 @media(max-width: 1350px){/*dodělat*/
     .header div, .header.scrolled #head1,.header.scrolled #head2,.header.scrolled #head3, .header.scrolled #head4{
