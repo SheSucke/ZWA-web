@@ -32,7 +32,6 @@
 .nav-links-top{
     margin: 20px;
     display: flex;
-    
     justify-content: space-evenly;
     width: auto;
     transition:var(--global-transition);
@@ -53,7 +52,7 @@
     position: fixed;
     z-index: 2;
     top: 0px;
-    left: 190px;
+    left: 180px;
     display: flex;
     justify-content: flex-start;
 }
@@ -174,15 +173,15 @@
 .pictures{
     display: flex;
     justify-content: space-evenly;
-
-    padding: 50px 5px;
+    flex-wrap: wrap;
+    padding: 10px 5px 70px 5px;
 }
 #galerie img{
     transition: 0.5s;
     padding: 5px;
 }
 #galerie img:hover{
-    transform: scale(1.1);
+    transform: scale(1.05);
 }
 /*-----KAPELY-----*/
 #kapely div div{
@@ -308,5 +307,41 @@
     .btn-to-top{display: none;}
 }
 @media(max-width: 1100px){
+    .nav-top{
+        margin: 0;
+        justify-content: space-evenly;
+        height: calc(64px + 56px);
+    }
+    .nav-top.scrolled{
+        margin: 0px;
+    }
+    .nav-top.scrolled .nav-links-top{margin-top: 64px;}
+    
+    .nav-top.scrolled .nav-links-top{
+        margin-top: 0px;
+        transition: var(--global-transition);
+    }
+    .logo {
+        transform: scale(0.4);
+        transform-origin: top;
+        transition: 0.4s;
+    }
+    .div-left{
+        margin-top: -96px;
+    }
+    .hamburger.scrolled, .nav-left.clickBurger.scrolled .invisible{background: var(--bg-transition-color);}
+    .nav-top, .nav-left.clickBurger .invisible{
+        background: var(--bg-transition-color);
+        transition: var(--global-transition);
+    }
+    .hamburger, .hamburger.scrolled{background: none;}
+    .header #head1,.header #head2,.header #head3, .header #head4{
+        padding-left: 10px;
+        font-size: 30px;
+        margin-top: 0px;
+        transition:var(--global-transition);
+    }
+    .header{line-height: 64px;}
+    .header{height: 64px;}
     
 }
