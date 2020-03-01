@@ -26,3 +26,21 @@
     --div-main-width: 1024px;
     --global-transition: all 0.6s;
 }
+/*-----COMMON-SETTINGS-----*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    /*
+    font-family: dederon-serif-web, serif;
+    font-style: normal;
+    font-weight: bold;
+    */
+    background: none;
+    color: black;
+    scroll-behavior: smooth;
+}
+body{background: var(--body-bg-color);  }
+li{ list-style: none; }
+a{ text-decoration: none; }

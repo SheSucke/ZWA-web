@@ -1,15 +1,3 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Open Sans', sans-serif;
-    background: none;
-    color: black;
-    scroll-behavior: smooth;
-}
-body{ background-color: var(--body-bg-color); }
-li{ list-style: none; }
-a{ text-decoration: none; }
 /*-------LOGO--------*/
 .logo{
     margin-left: 60px;
@@ -23,6 +11,7 @@ a{ text-decoration: none; }
 /*----------HORNÍ NAVIGAČNÍ BAR------------*/
 .nav-top{
     display: flex;
+    align-items: center;
     justify-content: space-between;
     background: var(--main-nav-color);
     position: fixed;
@@ -33,8 +22,7 @@ a{ text-decoration: none; }
     height: auto;
 }
 .nav-links-top{
-    margin-top: 15px;
-    margin-right: 20px;
+    margin: 5px;
     display: flex;
     justify-content: space-evenly;
     width: auto;
@@ -51,15 +39,16 @@ a{ text-decoration: none; }
 }
 /*----------HORNÍ TEXT------------*/
 .header{
+    line-height: 64px;
     position: fixed;
     z-index: 2;
-    top: 5px;
-    left: 185px;
+    top: 0px;
+    left: 190px;
     display: flex;
     justify-content: flex-start;
 }
 .header div{
-    padding: 5px;
+    padding-right: 10px;
     font-weight: bold;
     text-transform: uppercase;
     font-size: 40px;
