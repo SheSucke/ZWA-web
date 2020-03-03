@@ -71,7 +71,7 @@
     font-size: 60px;
     padding-left: 20px;
 }
-
+#head1, #head2, #head3, #head4, .invisible a, .hamburger, .nav-top a{color: var(--head-color);}
 /*-----------LEVÝ NAVIGAČNÍ BAR-----------*/
 .nav-left{
     z-index: 2;
@@ -265,10 +265,12 @@
     opacity: 1;
     transform: translateX(60px);
 }
-.js-style{
+.nav-top a.js-style, .invisible a.js-style{
     box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.5);
     color: var(--a-hover-color);
 }
+/*this changes color of band links on hover*/
+.href-bands.js-style{color: rgba(0, 0, 0, 0.5);}
 .div-left li a.js-style, .href-bands.js-style{
     background: initial;
     box-shadow: none;

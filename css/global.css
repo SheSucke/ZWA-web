@@ -1,5 +1,9 @@
 /*----------GLOBAL VARIABLES------------*/
 @import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+@font-face{
+    font-family: 'Dederon-Serif';
+    src: url('/Dederon_Serif-/Dederon.ttf') format('truetype');
+}
 :root{
     /*---NAV-BAR---*/
     --temp-nav: 94,119,3; /*this sets nav color*/
@@ -13,8 +17,8 @@
 
     /*---BUTTONS---*/
     --a-bg-color: rgba(255, 220, 160);
-    --a-hover-color: beige;
-
+    --a-hover-color: black;
+    --head-color: beige;
     --butt-bg-color: #bc4555;
 
     /*---MAIN-CONTENT---*/
@@ -32,11 +36,13 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
+    font-family: 'Dederon-Serif', sans-serif;
     /*
     font-family: dederon-serif-web, serif;
     font-style: normal;
     font-weight: bold;
     */
+    
     background: none;
     color: black;
     scroll-behavior: smooth;
