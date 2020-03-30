@@ -9,7 +9,6 @@ function hover(){
       //e.target.style.backgroundColor = "var(--hover-color)";
       //e.target.style.color = "beige";
     }
-      
     function changeDefOut(e) {
       e.target.classList.toggle("js-style");
       //e.target.style.backgroundColor = "initial";
